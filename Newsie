@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #124791;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #124791;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ff42a1;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #124791;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+
+
+
+<div class="header">
+  <h1>Newsie</h1>
+  <p>A dive into The Internet Computer</p>
+</div>
+
+<div class="topnav">
+  <a href="#"></a><a class="cursor-pointer" style="color:#11B8F0;" href="https://gh2ig-jqaaa-aaaai-aaslq-cai.raw.ic0.app/">Home</a>
+  <a href="#"></a><a class="cursor-pointer" style="color:#11B8F0;" href="academy">Academy</a>
+  <a href="#"></a><a class="cursor-pointer" style="color:#11B8F0;" href="warriors">Warriors</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>News Coming Soon...</h2>
+      <h5>Title description, Jan 6, 2022</h5>
+      <div style="height:auto;"><img src="https://i.ibb.co/L1j3Cvq/Untitled-1-2.png"></div>
+      <p>Website under construction, follow our twitter for regular updates.</p>
+    </div>
+    <div class="card">
+      <h2>News Coming Soon...</h2>
+      <h5>Title description, Jan 6, 2022</h5>
+      <div style="height:auto;"><img src="https://i.ibb.co/L1j3Cvq/Untitled-1-2.png"></div>
+      <p>Website under construction, follow our twitter for regular updates.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Internet Computer Quick Links</h2>
+      <p><a class="cursor-pointer" style="color:#11B8F0;" href="https://dashboard.internetcomputer.org/governance">Staking APY</a></p><p><a class="cursor-pointer" style="color:#11B8F0;" href="https://nns.ic0.app/">NNS</a></p><p><a class="cursor-pointer" style="color:#11B8F0;" href="https://identity.ic0.app/">Internet Identity</a></p><p>NFTs (coming soon)</p><p><a class="cursor-pointer" style="color:#11B8F0;" href="https://dfinity.org/">Dfinity</a></p>
+    </div>
+    <div class="card">
+      <h3>Newsie Warrior Drop Date: TBD</h3>
+      <div style="height:auto;"><img src="https://pbs.twimg.com/media/FIdBHHVXIAcT4kG?format=jpg&amp;name=large"></div>
+    </div>
+    <div class="card">
+      <h3>Follow us on Twitter <a class="cursor-pointer" style="color:#11B8F0;" href="https://twitter.com/NewsieCartoon">newsiecartton</a></h3>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Newsie is still in development, for questions or feedback contact us on Twitter</h2>
+</div>
