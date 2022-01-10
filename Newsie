@@ -7,33 +7,43 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: times;
   padding: 10px;
-  background: #f1f1f1;
+  background: #2B1D22;
 }
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
-  text-align: center;
-  background: white;
+
 }
 
-.header h1 {
-  font-size: 50px;
+
+h2 {
+  color: #B88A8C;
+  font-family: monospace;
+}
+
+h5 {
+  color: #F3E1D5;
+  font-family: courier;
+}
+
+p {
+  color: #F3E1D5;
+  font-family: times;
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #124791;
+  background-color: #06406D;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #124791;
+  color: #F2E0D2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -41,29 +51,36 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ff42a1;
+  background-color: #550c41;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn { 
   float: left;
   width: 75%;
+  padding-right: 20px;
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
+  background-color: #2B1D22;
 }
 
 
+.card img{
+  width:100%;
+  height:auto;
+  }
+
 /* Add a card effect for articles */
 .card {
-  background-color: white;
-  padding: 20px;
+  box-shadow: .5px .5px 5px #ffffff;
+  border-radius: 1%;
+  background-color: #06406D;
+  padding: 5px;
   margin-top: 20px;
 }
 
@@ -76,9 +93,10 @@ body {
 
 /* Footer */
 .footer {
+  border-radius: 1%;
   padding: 20px;
   text-align: center;
-  background: #124791;
+  background: #06406D;
   margin-top: 20px;
 }
 
@@ -102,42 +120,43 @@ body {
 
 
 <div class="header">
-  <h1>Newsie</h1>
-  <p>A dive into The Internet Computer</p>
+  <img src="https://i.ibb.co/L1j3Cvq/Untitled-1-2.png" width="100%" height="auto">
+   </body>
 </div>
 
 <div class="topnav">
-  <a href="#"></a><a class="cursor-pointer" style="color:#11B8F0;" href="https://gh2ig-jqaaa-aaaai-aaslq-cai.raw.ic0.app/">Home</a>
-  <a href="#"></a><a class="cursor-pointer" style="color:#11B8F0;" href="academy">Academy</a>
-  <a href="#"></a><a class="cursor-pointer" style="color:#11B8F0;" href="warriors">Warriors</a>
+  </a><a class="cursor-pointer" style="color:#B98B8D;"href="https://gh2ig-jqaaa-aaaai-aaslq-cai.raw.ic0.app/">Home</a>
+  </a><a class="cursor-pointer" style="color:#B98B8D;" href="https://gh2ig-jqaaa-aaaai-aaslq-cai.raw.ic0.app/academy">Academy</a>
+  </a><a class="cursor-pointer" style="color:#B98B8D;" href="https://gh2ig-jqaaa-aaaai-aaslq-cai.raw.ic0.app/warriors">Warriors</a>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>News Coming Soon...</h2>
-      <h5>Title description, Jan 6, 2022</h5>
-      <div style="height:auto;"><img src="https://i.ibb.co/L1j3Cvq/Untitled-1-2.png"></div>
-      <p>Website under construction, follow our twitter for regular updates.</p>
+      <h2>BTC and ICP Direct Integration Phase 1</h2>
+      <h5>Bitcoin Integration, Jan 9, 2022</h5>
+      <div style="height:auto;"><img src="https://i.ibb.co/5RJQs19/bitcoin.png
+"></div>
+      <p>Bitcoin integration with ICP with no bridges has entered phase one of three. Phase 1 is threshold ECDSA signatures, ECDSA signatures allows both networks to talk to one another.</p>
     </div>
     <div class="card">
-      <h2>News Coming Soon...</h2>
-      <h5>Title description, Jan 6, 2022</h5>
-      <div style="height:auto;"><img src="https://i.ibb.co/L1j3Cvq/Untitled-1-2.png"></div>
-      <p>Website under construction, follow our twitter for regular updates.</p>
+      <h2>Dfinity Space Apes Exploding On The IC</h2>
+      <h5>DSA NFTs, Jan 9, 2022</h5>
+      <div style="height:auto;"><img src="https://entrepot.app/collections/spaceapes/banner.jpg"></div>
+      <p>Definity Space Apes just a few days into launch have reached over 14,000 ICP trading volume and just under 2,500 listings at the time of this post. Holders of the DSA will get to enjoy many benefits including a planet drop if you have 3 of the same backgrounds. </p>
     </div>
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>Internet Computer Quick Links</h2>
-      <p><a class="cursor-pointer" style="color:#11B8F0;" href="https://dashboard.internetcomputer.org/governance">Staking APY</a></p><p><a class="cursor-pointer" style="color:#11B8F0;" href="https://nns.ic0.app/">NNS</a></p><p><a class="cursor-pointer" style="color:#11B8F0;" href="https://identity.ic0.app/">Internet Identity</a></p><p>NFTs (coming soon)</p><p><a class="cursor-pointer" style="color:#11B8F0;" href="https://dfinity.org/">Dfinity</a></p>
+      <p><a class="cursor-pointer" style="color:#F2E0D2;" href="https://dashboard.internetcomputer.org/governance">Staking APY</a></p><p><a class="cursor-pointer" style="color:#F2E0D2;" href="https://nns.ic0.app/">NNS</a></p><p><a class="cursor-pointer" style="color:#F2E0D2;" href="https://identity.ic0.app/">Internet Identity</a></p><p>NFTs (coming soon)</p><p><a class="cursor-pointer" style="color:#F2E0D2;" href="https://dfinity.org/">Dfinity</a></p>
     </div>
     <div class="card">
       <h3>Newsie Warrior Drop Date: TBD</h3>
       <div style="height:auto;"><img src="https://pbs.twimg.com/media/FIdBHHVXIAcT4kG?format=jpg&amp;name=large"></div>
     </div>
     <div class="card">
-      <h3>Follow us on Twitter <a class="cursor-pointer" style="color:#11B8F0;" href="https://twitter.com/NewsieCartoon">newsiecartton</a></h3>
+      <h3>Follow us on Twitter <a class="cursor-pointer" style="color:#F2E0D2;" href="https://twitter.com/NewsieCartoon">newsiecartoon</a></h3>
     </div>
   </div>
 </div>
